@@ -9,7 +9,7 @@ from PyQt6.QtMultimedia import QSoundEffect
 
 import os
 
-GIF_PATH = os.path.join(os.path.dirname(__file__), '..', 'assets', 'Mangle.gif')
+GIF_PATH = os.path.join(os.path.dirname(__file__), '..', 'assets', 'Withered_chica.gif')
 SOUND_PATH = os.path.join(os.path.dirname(__file__), '..', 'assets', 'jumpscare_fnaf2.wav')  # Exemplo
 
 
@@ -336,7 +336,7 @@ class JumpscareController(QObject):
                 self._current_window.destroyed.connect(self._on_window_closed)
                 
                 # Para susto vindo de cima:
-                self._current_window.show_at_position("center", overflow_top=300)
+                self._current_window.show_at_position("center", overflow_top=-50)
                 # ou: self._current_window.show_centered()  # Centro normal
         except Exception:
             print("[ERRO] Exceção no timeout handler:")

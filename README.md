@@ -1,6 +1,10 @@
 # Jumpscare-Simulator
 
-menu de seleção personalizado
+## Tecnologias usadas
 
-#comando para rodar o script python
-'''.venv\Scripts\python.exe main.py'''
+[PyQt5](https://www.pythonguis.com/)
+
+## Menu de seleção personalizado
+
+#comando para rodar o script python  n\
+`.venv\Scripts\python.exe main.py`

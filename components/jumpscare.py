@@ -1,11 +1,12 @@
+
 import sys
 import random
 from pathlib import Path
 import traceback
-from PyQt6.QtCore import Qt, QUrl, QSize, QTimer, QObject
-from PyQt6.QtGui import QMovie
-from PyQt6.QtWidgets import QApplication, QLabel, QWidget, QVBoxLayout
-from PyQt6.QtMultimedia import QSoundEffect
+from PyQt5.QtCore import Qt, QUrl, QSize, QTimer, QObject
+from PyQt5.QtGui import QMovie
+from PyQt5.QtWidgets import QApplication, QLabel, QWidget, QVBoxLayout
+from PyQt5.QtMultimedia import QSoundEffect
 
 import os
 

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/chica_icon.png</file>
+        <file>assets/Monster_rat_icon.png</file>
+        <file>assets/FNAF_static.gif</file>
+        <file>assets/Mangle_icon.png</file>
+        
+    </qresource>
+</RCC>

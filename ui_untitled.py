@@ -14,21 +14,21 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_JumpscareSim(object):
     def setupUi(self, JumpscareSim):
         JumpscareSim.setObjectName("JumpscareSim")
-        JumpscareSim.resize(784, 431)
+        JumpscareSim.resize(756, 429)
         self.centralwidget = QtWidgets.QWidget(JumpscareSim)
         self.centralwidget.setObjectName("centralwidget")
         self.widget = QtWidgets.QWidget(self.centralwidget)
-        self.widget.setGeometry(QtCore.QRect(10, 20, 771, 421))
+        self.widget.setGeometry(QtCore.QRect(-30, -20, 821, 451))
         self.widget.setToolTip("")
         self.widget.setStyleSheet("")
         self.widget.setObjectName("widget")
         self.pushButton = QtWidgets.QPushButton(self.widget)
-        self.pushButton.setGeometry(QtCore.QRect(80, 50, 141, 141))
+        self.pushButton.setGeometry(QtCore.QRect(80, 60, 141, 141))
         self.pushButton.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton.setStyleSheet("QPushButton {\n"
+"    image: url(:/assets/icons/Chica_icon.png);\n"
 "      background-color: rgb(0, 0, 0);\n"
-"      border-radius: 20px;\n"
-"      image: url(:/assets/chica_icon.png);\n"
+"      image: url(:/assets/icons/Chica_icon.png);\n"
 "}\n"
 "QPushButton:hover {\n"
 "      background-color: rgb(0, 0, 0);\n"
@@ -38,12 +38,16 @@ class Ui_JumpscareSim(object):
         self.pushButton.setText("")
         self.pushButton.setObjectName("pushButton")
         self.pushButton_2 = QtWidgets.QPushButton(self.widget)
-        self.pushButton_2.setGeometry(QtCore.QRect(310, 40, 151, 151))
+        self.pushButton_2.setGeometry(QtCore.QRect(310, 50, 151, 151))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pushButton_2.sizePolicy().hasHeightForWidth())
+        self.pushButton_2.setSizePolicy(sizePolicy)
         self.pushButton_2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_2.setStyleSheet("QPushButton {\n"
 "      background-color: rgb(0, 0, 0);\n"
-"      border-radius: 20px;\n"
-"      image: url(:/assets/Monster_rat_icon.png);\n"
+"     image: url(:/assets/icons/Monster_rat_icon.png);\n"
 "}\n"
 "QPushButton:hover {\n"
 "      background-color: rgb(0, 0, 0);\n"
@@ -52,13 +56,28 @@ class Ui_JumpscareSim(object):
 "")
         self.pushButton_2.setText("")
         self.pushButton_2.setObjectName("pushButton_2")
+        self.label = QtWidgets.QLabel(self.widget)
+        self.label.setGeometry(QtCore.QRect(-40, -20, 871, 581))
+        self.label.setStyleSheet("")
+        self.label.setText("")
+        self.label.setScaledContents(True)
+        self.label.setObjectName("label")
+        self.widget_2 = QtWidgets.QWidget(self.widget)
+        self.widget_2.setGeometry(QtCore.QRect(10, 0, 821, 451))
+        self.widget_2.setToolTip("")
+        self.widget_2.setStyleSheet("")
+        self.widget_2.setObjectName("widget_2")
         self.pushButton_3 = QtWidgets.QPushButton(self.widget)
-        self.pushButton_3.setGeometry(QtCore.QRect(530, 50, 131, 141))
+        self.pushButton_3.setGeometry(QtCore.QRect(560, 50, 151, 151))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pushButton_3.sizePolicy().hasHeightForWidth())
+        self.pushButton_3.setSizePolicy(sizePolicy)
         self.pushButton_3.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_3.setStyleSheet("QPushButton {\n"
 "      background-color: rgb(0, 0, 0);\n"
-"      border-radius: 20px;\n"
-"      image: url(:/assets/Mangle_icon.png);\n"
+"     image: url(:/assets/icons/Mangle_icon.png);\n"
 "}\n"
 "QPushButton:hover {\n"
 "      background-color: rgb(0, 0, 0);\n"
@@ -67,25 +86,77 @@ class Ui_JumpscareSim(object):
 "")
         self.pushButton_3.setText("")
         self.pushButton_3.setObjectName("pushButton_3")
-        self.label = QtWidgets.QLabel(self.widget)
-        self.label.setGeometry(QtCore.QRect(0, 0, 761, 391))
-        self.label.setStyleSheet("")
-        self.label.setText("")
-        self.label.setScaledContents(True)
-        self.label.setObjectName("label")
+        self.pushButton_4 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_4.setGeometry(QtCore.QRect(560, 250, 151, 151))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pushButton_4.sizePolicy().hasHeightForWidth())
+        self.pushButton_4.setSizePolicy(sizePolicy)
+        self.pushButton_4.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_4.setStyleSheet("QPushButton {\n"
+"      background-color: rgb(0, 0, 0);\n"
+"     image: url(:/assets/Monster_rat_icon.png);\n"
+"}\n"
+"QPushButton:hover {\n"
+"      background-color: rgb(0, 0, 0);\n"
+"      border: 2px solid #ffffff;\n"
+"}\n"
+"")
+        self.pushButton_4.setText("")
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.pushButton_5 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_5.setGeometry(QtCore.QRect(310, 250, 151, 151))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pushButton_5.sizePolicy().hasHeightForWidth())
+        self.pushButton_5.setSizePolicy(sizePolicy)
+        self.pushButton_5.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_5.setStyleSheet("QPushButton {\n"
+"      background-color: rgb(0, 0, 0);\n"
+"     image: url(:/assets/icons/Monster_Vinnie_icon.jpg);\n"
+"}\n"
+"QPushButton:hover {\n"
+"      background-color: rgb(0, 0, 0);\n"
+"      border: 2px solid #ffffff;\n"
+"}\n"
+"")
+        self.pushButton_5.setText("")
+        self.pushButton_5.setObjectName("pushButton_5")
+        self.pushButton_6 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_6.setGeometry(QtCore.QRect(70, 250, 151, 151))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pushButton_6.sizePolicy().hasHeightForWidth())
+        self.pushButton_6.setSizePolicy(sizePolicy)
+        self.pushButton_6.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_6.setStyleSheet("QPushButton {\n"
+"      background-color: rgb(0, 0, 0);\n"
+"     image: url(:/assets/icons/images.jpg);\n"
+"}\n"
+"QPushButton:hover {\n"
+"      background-color: rgb(0, 0, 0);\n"
+"      border: 2px solid #ffffff;\n"
+"}\n"
+"")
+        self.pushButton_6.setText("")
+        self.pushButton_6.setObjectName("pushButton_6")
+        self.widget_2.raise_()
         self.label.raise_()
         self.pushButton.raise_()
         self.pushButton_2.raise_()
         self.pushButton_3.raise_()
+        self.pushButton_4.raise_()
+        self.pushButton_5.raise_()
+        self.pushButton_6.raise_()
         JumpscareSim.setCentralWidget(self.centralwidget)
-        self.statusbar = QtWidgets.QStatusBar(JumpscareSim)
-        self.statusbar.setObjectName("statusbar")
-        JumpscareSim.setStatusBar(self.statusbar)
 
         self.retranslateUi(JumpscareSim)
         QtCore.QMetaObject.connectSlotsByName(JumpscareSim)
 
     def retranslateUi(self, JumpscareSim):
         _translate = QtCore.QCoreApplication.translate
-        JumpscareSim.setWindowTitle(_translate("JumpscareSim", "MainWindow"))
+        JumpscareSim.setWindowTitle(_translate("JumpscareSim", "Jumpscare Simulator"))
 import resources_rc

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>784</width>
-    <height>431</height>
+    <width>756</width>
+    <height>429</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,17 +15,17 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="widget" native="true">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>20</y>
-        <width>771</width>
-        <height>421</height>
-       </rect>
-      </property>
-      <property name="toolTip">
-       <string></string>
-      </property>
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>-20</y>
+      <width>821</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
     <property name="styleSheet">
      <string notr="true"/>
     </property>
@@ -33,7 +33,7 @@
      <property name="geometry">
       <rect>
        <x>80</x>
-       <y>50</y>
+       <y>60</y>
        <width>141</width>
        <height>141</height>
       </rect>
@@ -41,11 +41,11 @@
      <property name="cursor">
       <cursorShape>PointingHandCursor</cursorShape>
      </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton {
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	image: url(:/assets/icons/Chica_icon.png);
       background-color: rgb(0, 0, 0);
-      border-radius: 20px;
-      image: url(:/assets/chica_icon.png);
+      image: url(:/assets/icons/Chica_icon.png);
 }
 QPushButton:hover {
       background-color: rgb(0, 0, 0);
@@ -61,47 +61,24 @@ QPushButton:hover {
      <property name="geometry">
       <rect>
        <x>310</x>
-       <y>40</y>
+       <y>50</y>
        <width>151</width>
        <height>151</height>
       </rect>
      </property>
-     <property name="cursor">
-      <cursorShape>PointingHandCursor</cursorShape>
-     </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton {
-      background-color: rgb(0, 0, 0);
-      border-radius: 20px;
-      image: url(:/assets/Monster_rat_icon.png);
-}
-QPushButton:hover {
-      background-color: rgb(0, 0, 0);
-      border: 2px solid #ffffff;
-}
-</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_3">
-     <property name="geometry">
-      <rect>
-       <x>530</x>
-       <y>50</y>
-       <width>131</width>
-       <height>141</height>
-      </rect>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
      </property>
      <property name="cursor">
       <cursorShape>PointingHandCursor</cursorShape>
      </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton {
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
       background-color: rgb(0, 0, 0);
-      border-radius: 20px;
-      image: url(:/assets/Mangle_icon.png);
+     image: url(:/assets/icons/Monster_rat_icon.png);
 }
 QPushButton:hover {
       background-color: rgb(0, 0, 0);
@@ -116,10 +93,10 @@ QPushButton:hover {
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>761</width>
-       <height>391</height>
+       <x>-40</x>
+       <y>-20</y>
+       <width>871</width>
+       <height>581</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -132,13 +109,164 @@ QPushButton:hover {
       <bool>true</bool>
      </property>
     </widget>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>821</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>50</y>
+       <width>151</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+      background-color: rgb(0, 0, 0);
+     image: url(:/assets/icons/Mangle_icon.png);
+}
+QPushButton:hover {
+      background-color: rgb(0, 0, 0);
+      border: 2px solid #ffffff;
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>250</y>
+       <width>151</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+      background-color: rgb(0, 0, 0);
+     image: url(:/assets/Monster_rat_icon.png);
+}
+QPushButton:hover {
+      background-color: rgb(0, 0, 0);
+      border: 2px solid #ffffff;
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>250</y>
+       <width>151</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+      background-color: rgb(0, 0, 0);
+     image: url(:/assets/icons/Monster_Vinnie_icon.jpg);
+}
+QPushButton:hover {
+      background-color: rgb(0, 0, 0);
+      border: 2px solid #ffffff;
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>250</y>
+       <width>151</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+      background-color: rgb(0, 0, 0);
+     image: url(:/assets/icons/images.jpg);
+}
+QPushButton:hover {
+      background-color: rgb(0, 0, 0);
+      border: 2px solid #ffffff;
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>widget_2</zorder>
     <zorder>label</zorder>
     <zorder>pushButton</zorder>
     <zorder>pushButton_2</zorder>
     <zorder>pushButton_3</zorder>
+    <zorder>pushButton_4</zorder>
+    <zorder>pushButton_5</zorder>
+    <zorder>pushButton_6</zorder>
    </widget>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
   <include location="resources.qrc"/>

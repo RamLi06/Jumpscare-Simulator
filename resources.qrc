@@ -1,9 +1,11 @@
 <RCC>
     <qresource prefix="/">
-        <file>assets/chica_icon.png</file>
-        <file>assets/Monster_rat_icon.png</file>
+        <file>assets/icons/Chica_icon.png</file>
+        <file>assets/icons/Monster_rat_icon.png</file>
         <file>assets/FNAF_static.gif</file>
-        <file>assets/Mangle_icon.png</file>
-        
+        <file>assets/icons/Mangle_icon.png</file>
+        <file>assets/icons/images.jpg</file>
+        <file>assets/icons/Monster_Vinnie_icon.jpg</file>
+        <file>assets/icons/images.jpg</file>
     </qresource>
 </RCC>

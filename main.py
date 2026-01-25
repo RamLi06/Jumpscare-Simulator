@@ -5,6 +5,7 @@ import subprocess
 from PyQt5 import QtWidgets, QtGui, QtCore, QtMultimedia
 from PyQt5.QtMultimedia import QSoundEffect
 from ui_untitled import Ui_JumpscareSim
+from components.jumpscare import run_continuous
 
 
 GIF_MENU = 'assets/FNAF_static.gif'  # Coloque seu GIF de menu aqui
